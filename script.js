@@ -2,10 +2,11 @@
 // algoritma çıkar
 // kullanıcı arayüzü nasıl çalışcak bunu da adım adım belirt
 
-// ekranda oyunu başlatma butonu olsun.
-// butona tıklayınca oyun ekranı gelsin
-// oyun ekranında oyun sorusu, sayı tahmin inputu, tahmin yapma butonu ve sonuç bölümlerinin olduğu 3 alan olsun.
-// kullanıcının 5 hakkı olsun
+// ekranda oyunu başlatma butonu olsun.  +
+// butona tıklayınca oyun ekranı gelsin  +
+// oyun ekranında oyun sorusu, sayı tahmin inputu, tahmin yapma butonu ve sonuç bölümlerinin olduğu 3 alan olsun.  +
+// kullanıcının 5 hakkı olsun  
+// sadece sayı girebilsin - type "number"
 // bilirse ekranda kazandınız yazsın ve oyun başlat ekranına dönsün
 // bilemezse 1 hakkı gitsin ve sonuç bölümünde bilemediniz yazsın. kalan hakkı göstersin
 // 5 hakkı biterse sonuç bölümünde kazanamadınız yazsın ve ekranda ana ekrana dön butonu belirsin.
@@ -14,26 +15,39 @@
 // sadece başlatmaButonu görünür
 // başlatmaButonu'na tıklanınca oyun ekranı görünür
 // oyun başladığında
-  // rastgeleSayi 0-100 arası bir sayıya eşitlenir
-  // oyunSorusu "0-100 arası bir sayı seçin, {hak} hakkınız var" yazısını gösterir
+
+
+  //hak kontrol
+        //hak yeterliyse
+            // rastgeleSayi 0-100 arası bir sayıya eşitlenir
+            // oyunSorusu "0-100 arası bir sayı seçin, {hak} hakkınız var" yazısını gösterir
+            // input'a yazı yazabilir
+                // type=number yaparak engelle
+            // input'a sayı yazabilir
+                // negatif yazabilir
+                    // 0 ile 100 arasında yazın uyarısı gelicek, sonuç ekranında
+                    // inputu boşalt
+            // 0 yazabilir
+                // <38>
+            // pozitif yazabilir
+                // <38>
+
+        //hak yetersizse
+            //<oyun bittiğinde> çalışır
+
+
   // tahminButonuna basılırsa
-    // input boşsa
-        //<24>
-    // input doluysa
-        // negatif yazabilir
-            // 0 ile 100 arasında yazın uyarısı gelicek, sonuç ekranında
-            // inputu boşalt
-        // pozitif yazabilir
-            //hak kontrol
-                 //hak yeterliyse
-                    //rastgele sayı ile input karşılaştır
-                        //tahmin doğru ise sonuç ekraında  kazandınız yazsın ve < oyun bittiğinde> çalışsın
-                        //tahmin yanlış ise hak -1 azalsın ve sonuç ekraında bilemediniz {hak} kaldı yazsın
-                //hak yeterli değilse
-                        //sonuç bölümünde hakkınız kalmamıştır yazsın ve <oyun bittiğinde> çalışsın
+        // input boşsa
+            //<28>
+        // input doluysa
+            //rastgele sayı ile input karşılaştır
+                //tahmin doğru ise sonuç ekraında  kazandınız yazsın ve <bittiğinde> çalışsın
+                //tahmin yanlış ise hak -1 azalsın ve sonuç ekraında bilemediniz {hak} kaldı yazsın
+     
+     
   
 // oyun bittiğinde
-  //ekranda başlatma butonu belirsin.
+  //ekranda ana ekrana dön butonu belirsin.
 
 let info = document.querySelector(".info");
 let answer = document.querySelector(".answer");
