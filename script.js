@@ -22,8 +22,9 @@
     // input doluysa
         //hak kontrol
             //hak yeterliyse
-                //rastgele sayı ile input karşılaştır.tahmin doğru ise sonuç ekraında  kazandınız yazsın ve <bittiğinde> çalışsın
-                //rastgele sayı ile input karşılaştır.tahmin yanlış ise sonuç ekraında bilemediniz {hak} kaldı yazsın
+                //rastgele sayı ile input karşılaştır
+                    //tahmin doğru ise sonuç ekraında  kazandınız yazsın ve <bittiğinde> çalışsın
+                    //tahmin yanlış ise sonuç ekraında bilemediniz {hak} kaldı yazsın
             //hak yeterli değilse
                 //sonuç bölümünde hakkınız kalmamıştır yazsın ve <oyun bittiğinde> çalışsın
     // input'a yazı yazabirim
