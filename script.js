@@ -4,11 +4,33 @@
 
 // ekranda oyunu başlatma butonu olsun.
 // butona tıklayınca oyun ekranı gelsin
-// oyun ekranında oyun sorusu, sayı tahmin inputu, ve sonuç bölümlerinin olduğu 3 alan olsun.
-// kullanıcının 5 hakkı olsun 
+// oyun ekranında oyun sorusu, sayı tahmin inputu, tahmin yapma butonu ve sonuç bölümlerinin olduğu 3 alan olsun.
+// kullanıcının 5 hakkı olsun
 // bilirse ekranda kazandınız yazsın ve oyun başlat ekranına dönsün
 // bilemezse 1 hakkı gitsin ve sonuç bölümünde bilemediniz yazsın. kalan hakkı göstersin
 // 5 hakkı biterse sonuç bölümünde kazanamadınız yazsın ve ekranda ana ekrana dön butonu belirsin.
+
+// input tahminButonu sonuç başlatmaButonu oyunSorusu rastgeleSayi hak
+// sadece başlatmaButonu görünür
+// başlatmaButonu'na tıklanınca oyun ekranı görünür
+// oyun başladığında
+  // rastgeleSayi 0-100 arası bir sayıya eşitlenir
+  // oyunSorusu "0-100 arası bir sayı seçin, {hak} hakkınız var" yazısını gösterir
+  // tahminButonuna basılırsa
+    // input boşsa
+    // input doluysa
+  // input'a yazı yazabirim
+    // type=number yaparak engelle
+  // input'a sayı yazabilir
+    // negatif yazabilir
+      // 0 ile 100 arasında yazın uyarısı gelicek, sonuç ekranında
+      // inputu boşalt
+    // 0 yazabilir
+      // izin ver
+    // pozitif yazabilir
+      // izin ver
+// oyun bittiğinde
+  //
 
 let info = document.querySelector(".info");
 let answer = document.querySelector(".answer");
