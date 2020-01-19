@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sayı Tahmin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <input type="submit" id="basla" value="başla" onclick="baslat()">
+        <dialog class="info" open ><p>0 ile 100 arası bir sayı tahmin ediniz</p>
+        </dialog>
+        <input  class="input" id="inputid" type="number">
+        <input type="submit" value="Tahmin Et" class="submit" id="submitid" onclick="tahminlendi()">
+        <div class="answer"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
