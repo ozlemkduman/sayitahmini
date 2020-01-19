@@ -18,27 +18,22 @@
   // oyunSorusu "0-100 arası bir sayı seçin, {hak} hakkınız var" yazısını gösterir
   // tahminButonuna basılırsa
     // input boşsa
-        //<33>
+        //<24>
     // input doluysa
-        //hak kontrol
-            //hak yeterliyse
-                //rastgele sayı ile input karşılaştır
-                    //tahmin doğru ise sonuç ekraında  kazandınız yazsın ve <bittiğinde> çalışsın
-                    //tahmin yanlış ise sonuç ekraında bilemediniz {hak} kaldı yazsın
-            //hak yeterli değilse
-                //sonuç bölümünde hakkınız kalmamıştır yazsın ve <oyun bittiğinde> çalışsın
-    // input'a yazı yazabirim
-         // type=number yaparak engelle
-  // input'a sayı yazabilir
-    // negatif yazabilir
-      // 0 ile 100 arasında yazın uyarısı gelicek, sonuç ekranında
-      // inputu boşalt
-    // 0 yazabilir
-      // <22>
-    // pozitif yazabilir
-      // <22>
+        // negatif yazabilir
+            // 0 ile 100 arasında yazın uyarısı gelicek, sonuç ekranında
+            // inputu boşalt
+        // pozitif yazabilir
+            //hak kontrol
+                 //hak yeterliyse
+                    //rastgele sayı ile input karşılaştır
+                        //tahmin doğru ise sonuç ekraında  kazandınız yazsın ve < oyun bittiğinde> çalışsın
+                        //tahmin yanlış ise hak -1 azalsın ve sonuç ekraında bilemediniz {hak} kaldı yazsın
+                //hak yeterli değilse
+                        //sonuç bölümünde hakkınız kalmamıştır yazsın ve <oyun bittiğinde> çalışsın
+  
 // oyun bittiğinde
-  //ekranda ana ekrana dön butonu belirsin.
+  //ekranda başlatma butonu belirsin.
 
 let info = document.querySelector(".info");
 let answer = document.querySelector(".answer");
