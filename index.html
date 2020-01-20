@@ -8,14 +8,15 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <input type="submit" id="basla" value="başla" onclick="baslat()">
-        <dialog class="info" open ><p>0 ile 100 arası bir sayı tahmin ediniz</p>
-        </dialog>
-        <input  class="input" id="inputid" type="number">
-        <input type="submit" value="Tahmin Et" class="submit" id="submitid" onclick="tahminlendi()">
-        <div class="answer"></div>
-    </div>
+    <div class="main">
+        <input type="submit" id="basla" value="başla" onclick="baslatmaButonu()">
+        <div class="container">
+            <span class="oyunSorusu"></span>
+            <input  class="input" id="inputid" type="number" >
+            <input type="submit" value="Tahmin Et" class="submit" id="submitid">
+            <div class="answer"></div>
+        </div>
+    </div>   
 
     <script src="script.js"></script>
 </body>
